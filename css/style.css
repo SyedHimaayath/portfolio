@@ -1,0 +1,105 @@
+/* Reference has been taken from Design mockup file provided by Udacity. */
+
+body {
+    font-size: 18px;
+    color: #2d3c49;
+}
+
+.logo-text{
+    margin-top: 3px;
+    margin-left: -15px;
+}
+
+nav .container-fluid {
+    max-width: 1200px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.logo {
+    margin: -10px 5px 0 0;
+    height: 45px;
+    width: 45px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #2d3c49;
+    font-size: 16px;
+}
+
+#poster-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("/img/b1.jpg");
+    background-color: black;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+#poster-img .info{
+    font-family: monospace;
+    padding-top: 25vh;
+    text-align: center;
+    color: white;
+    padding-bottom: 25vh;
+}
+
+#poster-img .info h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.describe{
+    font-size: 17px;
+}
+
+#projects .container img{
+    height: 200px;
+}
+
+.pro-img {
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    margin-top: 30px;
+    font-size: 1.5em;
+    background-color: #222;
+    color: white;
+    padding:10px 0px;
+}
+
+ul{
+    padding: 0px;
+    margin:0px;
+}
+
+.foot-list li{
+    padding:10px 10px;
+    display: inline-flex;
+    padding-top: 15px;
+}
+.foot-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
