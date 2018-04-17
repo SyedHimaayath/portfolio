@@ -1,6 +1,6 @@
 /* Reference has been taken from Design mockup file provided by Udacity. */
 
-body {
+body{
     font-size: 18px;
     color: #2d3c49;
 }
@@ -30,7 +30,7 @@ nav .container-fluid {
 }
 
 
-.navbar-default .navbar-nav>li>a {
+.navbar-nav>li>a {
     color: #2d3c49;
     font-size: 16px;
 }
@@ -45,6 +45,7 @@ nav .container-fluid {
     background-attachment: fixed;
     margin-top: 50px;
 }
+
 #poster-img .info{
     font-family: monospace;
     padding-top: 25vh;
@@ -98,6 +99,7 @@ ul{
     display: inline-flex;
     padding-top: 15px;
 }
+
 .foot-list li a{
     color: white;
     text-decoration: none;
