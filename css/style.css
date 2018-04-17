@@ -10,32 +10,32 @@ body{
     margin-left: -15px;
 }
 
-nav .container-fluid {
+nav .container-fluid{
     max-width: 1200px;
 }
 
-.row {
+.row{
     margin-left: -15px;
     margin-right: -15px;
 }
 
-.navbar-brand {
+.navbar-brand{
     display: flex;
 }
 
-.logo {
+.logo{
     margin: -10px 5px 0 0;
     height: 45px;
     width: 45px;
 }
 
 
-.navbar-nav>li>a {
+.navbar-nav>li>a{
     color: #2d3c49;
     font-size: 16px;
 }
 
-#poster-img {
+#poster-img{
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url("https://raw.githubusercontent.com/SyedHimaayath/portfolio/master/img/b1.jpg");
     background-color: black;
@@ -59,7 +59,7 @@ nav .container-fluid {
     font-weight: bold;
 }
 
-.subtitle {
+.subtitle{
     color: black;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -75,13 +75,13 @@ nav .container-fluid {
     height: 200px;
 }
 
-.pro-img {
+.pro-img{
     width: 100%;
     height: auto;
 }
 
 
-footer {
+footer{
     margin-top: 30px;
     font-size: 1.5em;
     background-color: #222;
